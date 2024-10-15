@@ -16,7 +16,7 @@ export default function LoginPage() {
         Platforms Starter Kit
       </h1>
       <p className="mt-2 text-center text-sm text-stone-600 dark:text-stone-400">
-        Build multi-tenant applications with custom domains. <br />
+        Build multi-tenant applications with custom domains. 11<br />
         <a
           className="font-medium text-black hover:text-stone-800 dark:text-stone-300 dark:hover:text-stone-100"
           href="https://vercel.com/blog/platforms-starter-kit"
