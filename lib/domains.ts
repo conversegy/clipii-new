@@ -18,11 +18,11 @@ export const addDomainToVercel = async (domain: string) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name: domain,
+        name: 
         // Optional: Redirect www. to root domain
-        // ...(domain.startsWith("www.") && {
-        //   redirect: domain.replace("www.", ""),
-        // }),
+        (domain.startsWith("www.") && {
+        redirect: domain.replace("www.", ""),
+        }),
       }),
     },
   ).then((res) => res.json());
